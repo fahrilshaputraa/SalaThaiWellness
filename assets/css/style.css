@@ -981,6 +981,30 @@ h2 {
     }
 }
 
+/* responsive styles for team section */
+@media (max-width: 768px) {
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .footer .row {
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer .social-links {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 1rem;
+    }
+}
+
 /* Buttons */
 .btn-primary {
     background-color: var(--primary-color);
@@ -1157,13 +1181,4 @@ h2 {
 /* Add smooth scroll behavior */
 html {
     scroll-behavior: smooth;
-}
-
-
-
-/* responsive styles for team section */
-@media (max-width: 768px) {
-    body, html {
-        overflow-x: hidden;
-    }
 }
