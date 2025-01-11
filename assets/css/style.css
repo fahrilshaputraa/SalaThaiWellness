@@ -1158,3 +1158,12 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+/* responsive styles for team section */
+@media (max-width: 768px) {
+    body, html {
+        overflow-x: hidden;
+    }
+}
